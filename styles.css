@@ -49,6 +49,27 @@ h5 {
 .contenido {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+}
+
+.opcion {
+  display: flex;
+  flex-direction: column;
+  line-height: 1em;
+  flex-wrap: wrap;
+}
+
+.descripcion_h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.opcion_titulo {
+  text-align: center;
+}
+.opcion_descripcion {
+  width: 50%;
+}
+.precio {
+  align-self: center;
 }
