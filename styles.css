@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
 body {
   font-family: "Rubik", sans-serif;
   background-color: #ede1df;
@@ -23,17 +29,18 @@ li {
 
 h1 {
   text-align: center;
-  font-size:350%;
+  font-size: 350%;
   color: #ad664d;
-  margin: 3rem;
   font-weight: bolder;
+  margin-top: 1rem;
 }
 
-h2{
-  font-size:210%;
+h2 {
+  font-size: 210%;
   text-align: center;
   color: #ad664d;
-  font-weight:bold;
+  font-weight: bold;
+  margin-top: 1rem;
 }
 h3,
 h4,
@@ -55,27 +62,63 @@ h5 {
 .contenido {
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   justify-content: space-between;
   align-items: center;
 }
-.subtitulo{
-  justify-content:baseline;
-  text-align: center;
-  margin-bottom: 20px;
-}
 
-.subtitulo sub{
+.subtitulo sub {
   text-align: right;
-
 }
 
-.tipoplato{
+.titulo_seccion {
+  margin-left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.opcion_tipo_1 {
+  margin-right: 7%;
   font-weight: bolder;
+}
+
+.opcion_tipo_2 {
+  font-weight: bolder;
+}
+.opcion_titulo {
+  width: 75%;
+}
+
+.descripcion_h2_1 {
   text-align: center;
 }
 
-.tamtorta{
-  text-align: right;
+.descripcion_h2_2 {
+  font-size: 1rem;
+}
+
+.plato {
   font-weight: bolder;
+}
+
+.plato_descripcion {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "columna1 columna2";
+  margin-top: 1rem;
+}
+
+.columna1 {
+  grid-area: columna1;
+  padding: 4rem;
+}
+.columna2 {
+  grid-area: columna2;
+  padding: 4rem;
 }
