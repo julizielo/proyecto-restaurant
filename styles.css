@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 body {
@@ -133,5 +133,15 @@ h5 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "columna1" "columna2";
+  }
+
+  .columna1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .columna2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
 }
