@@ -122,3 +122,13 @@ h5 {
   grid-area: columna2;
   padding: 4rem;
 }
+
+.fondo {
+  background-image: url("./images/fondo.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+  opacity: 0.1;
+}
