@@ -4,10 +4,26 @@
   box-sizing: border-box;
   line-height: 1.5;
 }
+
 body {
   font-family: "Rubik", sans-serif;
   background-color: #ede1df;
   color: #ad664d;
+  position: relative;
+  z-index: 1;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  background-image: url(./images/fondo.png);
+  background-size: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.1;
+  z-index: -1;
 }
 
 h1,
@@ -121,14 +137,4 @@ h5 {
 .columna2 {
   grid-area: columna2;
   padding: 4rem;
-}
-
-.fondo {
-  background-image: url("./images/fondo.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  position: fixed;
-  opacity: 0.1;
 }
