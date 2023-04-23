@@ -167,6 +167,7 @@ h5 {
 input {
   margin: 0.8rem;
   width: 24rem;
+  text-align: center;
 }
 
 @media (max-width: 1050px) {
