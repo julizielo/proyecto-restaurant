@@ -131,12 +131,15 @@ h5 {
 .bform {
   margin: auto;
   background-color: #2d2d2d;
-  color: #ede1df;
+  color: white;
+  height: 2rem;
+  font-size: 1.2 rem;
 }
 
 .bform a {
   text-decoration: none;
-  color: #ede1df;
+  color: white;
+  margin-top: auto;
 }
 
 .formulario {
@@ -146,7 +149,7 @@ h5 {
   text-align: center;
   width: 90%;
   height: 100%;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .tituloform {
   margin-bottom: 2rem;
