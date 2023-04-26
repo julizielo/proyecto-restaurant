@@ -13,6 +13,6 @@ function validarFormulario() {
   if (nombre == "" || telefono == "" || correo == "") {
     alert("Por favor, complete todos los campos.");
   } else {
-    alert("Suscripcion exitosa");
+    alert("Subscripción exitosa");
   }
 }
