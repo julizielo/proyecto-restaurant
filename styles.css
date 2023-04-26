@@ -148,7 +148,7 @@ h5 {
   margin: auto;
   text-align: center;
   width: 90%;
-  height: 100%;
+  height: auto;
   font-size: 1rem;
 }
 .tituloform {
@@ -168,24 +168,6 @@ input {
   margin: 0.8rem;
   width: 24rem;
   text-align: center;
-}
-
-@media (max-width: 1050px) {
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "columna1" "columna2";
-  }
-
-  .columna1 {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
-
-  .columna2 {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-  }
 }
 
 footer {
@@ -219,4 +201,22 @@ footer {
   margin-left: 1.3rem;
   height: 50px;
   color: aliceblue;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "columna1" "columna2";
+  }
+
+  .columna1 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .columna2 {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
 }
